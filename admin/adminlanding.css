@@ -1,0 +1,22 @@
+.places {
+    transition: transform 0.25s ease-in-out; 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.places:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+
+}
+
+
+.card123{
+    transition: transform 0.25s ease-in-out; 
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+}
+
+.card123 :hover{
+cursor: pointer;
+transform: scale(1.1);
+}
